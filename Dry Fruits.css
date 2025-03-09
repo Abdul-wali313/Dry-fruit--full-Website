@@ -1,0 +1,215 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    border:none
+}
+
+
+.tea-images{
+    display:flex;
+    border:none
+    
+
+}
+.headimg{
+    height: 70px;;
+    display: flex;
+    flex-wrap: wrap;
+    width:80px;
+    background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dry-fruit-logo-design-template-8e2fb1872e5d437101a3531f58a6dc24_screen.jpg?ts=1690107560");
+    background-size:cover   ;
+    border: none;
+    margin-left:20px
+    
+}
+
+.allLinks{
+    height:75px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    background-color:black;
+    font-size: 25px;;
+    justify-content: space-between;
+
+}
+
+header div a{
+    margin-left:50px;
+    color: white;
+    text-decoration: none;
+    margin-right:50px
+
+}
+header div a:hover{
+    border-bottom:2px solid white;
+}
+header div img{
+    border:none
+    margin-left:20px
+
+}
+.cover{
+    height:790px;
+    background-size:cover;
+    width:100%
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width:100%;
+    background-color:#2d2d2d;
+    text-decoration: none;
+
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    margin: 50px;
+    font-size: 25px;;
+}
+
+.herosec{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px
+}
+
+
+/* Khajoor section start here */
+.khajoorhead{
+    margin-toP:50px;
+    margin-left:70px;
+    border-bottom:2px solid #3b3a3ac8;
+
+}
+div.card {
+    width: 300px;
+    
+    display: inline-block;
+   }
+           /* Card container styling */
+           .card {
+               width: 300px;
+               
+               padding: 20px;
+               border-radius: 10px;
+               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+               background-color: #fff;
+               margin: 20px;
+               transition: transform 0.3s ease;
+           }
+           .card:hover {
+               transform: translateY(-10px);
+           }
+           /* Card image styling */
+           .card img {
+               width: 100%;
+               
+               border-radius: 10px;
+           }
+           /* Card title styling */
+           .card h3 {
+               font-size: 1.5rem;
+               margin-top: 15px;
+               color: #333;
+           }
+           /* Card content styling */
+           .card p {
+               font-size: 1rem;
+               color: #666;
+               margin: 10px 0;
+           }
+           /* Card button styling */
+           .card button {
+               
+               padding: 10px 15px;
+               background-color: #45a0dd;
+               color: white;
+               border: none;
+               border-radius: 5px;
+               cursor: pointer;
+               transition: background-color 0.3s;
+           }
+           .card button:hover {
+               background-color: #38729933;
+           }
+
+/* khajoor section ends here */
+
+/* dry fruits gifts start here */
+.gifthead{
+    text-align: start;
+    margin-left:65px;
+    border-bottom:2px solid #2d2d2d
+}
+
+
+/* dry fruits gifts ends here */
+
+/* footer starts here */
+.footer {
+    background: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+}
+.footer-column {
+    margin: 10px;
+}
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+.footer-column a{
+    color: white;
+    text-decoration: none;
+}
+.footer-column p:hover{
+    color: darkgray;
+}
+.footer-column a:hover{
+    color: darkgray;
+}
+
+.links {
+    margin: 10px;
+}
+
+.links a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+/* footer ends here */

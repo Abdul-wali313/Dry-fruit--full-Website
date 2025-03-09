@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* *{
+            margin: auto;
+        } */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: flex;
+            max-width: 100%;
+            margin: auto;
+            /* background: #fff; */
+            padding: 20px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        }
+        .contact-details {
+            width: 40%;
+            padding-right: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .contact-details h3 {
+            margin-bottom: 10px;
+        }
+        .contact-form {
+            width: 60%;
+            padding-left: 20px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: gray;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: darkgray;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            border: none;
+            
+        }
+
+        .footer {
+            background: #111;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 100%;
+            margin: auto;
+        }
+        .footer-column {
+            margin: 10px;
+        }
+        .footer-column h4 {
+            margin-bottom: 10px;
+        }
+        .footer-column a{
+            color: white;
+            text-decoration: none;
+        }
+        .footer-column p:hover{
+            color: darkgray;
+        }
+        .footer-column a:hover{
+            color: darkgray;
+        }
+
+        .links {
+            margin: 10px;
+        }
+
+        .links a{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .links a:hover{
+            text-decoration: underline;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 5px;
+            margin-top: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .footer-bottom {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+    <link rel="stylesheet" href="Dry Fruits.css">
+</head>
+<body>
+    <header  class="allLinks">
+        <div> <img class="headimg"src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dry-fruit-logo-design-template-8e2fb1872e5d437101a3531f58a6dc24_screen.jpg?ts=1690107560' style="border:none" alt=""></div>
+
+       <div><a href="mailto:wli.afzal@email.com" >Whatsapp</a>
+        <a href="" onclick="alert('not Clickable go to heaven')">Faceboook</a>
+        <a href=""onclick="alert('not Clickable go to heaven')" >Linkdin</a>
+        <a href="" onclick="alert('not Clickable go to heaven')">instagram</a></div>
+        
+
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products section.html">Products</a>
+        <a href="/about section.html">About</a>
+        <a href="/contect section.html">Contact</a>
+        
+    </nav>
+    <h1>Contact Us</h1>
+    <p>Use the following contact details to contact us or fill up the below contact form. We'll respond to your query as soon as possible.</p>
+    <div class="container">
+        <div class="contact-details">
+            <h3>CONTACT DETAILS</h3> <hr>
+            <p><strong>Quetta Dry Fruits</strong></p>
+            <p><strong>Address:</strong> Office No. 5 Agha Seraj Complex Jinnah Road Quetta, Pakistan.</p>
+            <p><strong>Phone:</strong> +92-81-2866070 WhatsApp No. 03217734900</p>
+            <p><strong>Fax:</strong> WhatsApp No. 03217734900</p>
+            <p><strong>Email:</strong> dryfruitscorner@gmail.com</p>
+            <p><strong>Website:</strong> www.dryfruitscorner.com</p>
+        </div>
+        <div class="contact-form">
+            <h3>CONTACT FORM</h3><hr>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="text" placeholder="Company Name">
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Phone / Mobile">
+                <select required>
+                    <option value="">Select</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Product Inquiry">Product Inquiry</option>
+                </select>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Comments" rows="5"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.1088947690696!2d67.01527337436362!3d30.205439310927066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ed2de3413468005%3A0x4a1e5c536b9370c8!2sJinnah%20Rd%2C%20Quetta%2C%20Pakistan!5e0!3m2!1sen!2s!4v1741496587202!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>CONTACT</h4>
+                <p>Office No. 5 Agha Seraj Complex Jinnah Road Quetta, Pakistan.</p>
+                <p>+92-81-2866070 WhatsApp No. 03217734900</p>
+                <a href="https://mailto.com">dryfruitscorner@gmail.com</a>
+                
+            </div>
+            <div class="footer-column">
+                <h4>PRODUCTS</h4>
+                <p>Almonds</p>
+                <p>Dates</p>
+                <p>Cashews</p>
+                <p>Figs</p>
+                <p>Raisins</p>
+                <p>Apricots</p>
+                <p>Walnuts</p>
+                <p>Hazelnuts</p>
+            </div>
+            <div class="links">
+                <h4>ACCOUNT</h4>
+                <a href="#" onclick="alert('not clickable go to hell')">Sign Up</a>
+                <a href="#">My Account</a>
+                <a href="#">Shopping Cart</a>
+                <a href="#">Order History</a>
+                <br>
+                <h4>RETURN POLICY</h4>
+                <a href="">Policies</a>
+                
+            </div>
+            
+            <div class="footer-column">
+                <h4>STAY IN TOUCH</h4>
+                <input type="email" placeholder="Email Address">
+                <button>Subscribe →</button>
+                <div class="social-icons">
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Dry Fruits Corner 2025. All rights reserved.</p>
+            <p>Powered by Webx ®</p>
+        </div>
+    </div>
+</body>
+</html>
